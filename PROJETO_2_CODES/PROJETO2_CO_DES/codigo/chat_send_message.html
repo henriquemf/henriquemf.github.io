@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Chat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src="../js/java_chat.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a class="voltar" href='../codigo/chat.html'>&#8617;</a>
+            <h1 class="chat_name"> Fulano </h1>
+            <a class="menu_icon" href='../codigo/menu.html'>&#8801;</a>
+        </header>
+        
+        <div class="chatroom">
+            <div class="chatbox user show">
+                <p class="textoesquerda">Boa tarde! sou estudante do ensino médio interessado na área, e gostaria de saber como é trabalhar no seu ofício, para melhorar minha perspectiva! poderia poupar um tempo para conversar contigo?</p>
+                <span class="time"></span>
+            </div>
+            <div class="chatbox show">
+                <p>Bom dia, que bacana! estou disposto sim</p>
+                <span class="time"></span>
+            </div>
+            <div class="chatbox show">
+                <p>consegue amanhã as 15:00?</p>
+                <span class="time"></span>
+            </div>
+            <div class="chatbox user show">
+                <p class="textoesquerda">Posso sim!</p>
+                <span class="time"></span>
+            </div>
+            <div class="convite show">
+                <ul class="prompt">
+                    <li><p class = 'chat_name'>Fulano <p> convidou você para uma reunião de vídeo.</li>
+                    <li class="data">Data: 04/12/2020</li>
+                    <li>Horário: 15:00</li>
+                    <li>Aceitar?</li>
+                </ul>
+            </div>
+            <div class="ladolado simnao show">
+                <a class="botao_sim" href="../codigo/home.html"> Sim </a>
+                <button class="chat_button">Não</button>
+            </div>            
+        </div>
+        <footer>
+            <form>
+                <input type="text" name="Mensagem">
+                <input class="send" type="button" value="Enviar">
+            </form>
+        </footer>
+    </body>
+</html>

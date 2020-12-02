@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Cadastro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo_pag"> InForme-se </h1>
+        </header>
+        <h2 class="titulo_secundario"> Cadastro </h2>
+
+        <main>
+            <ul class="elements_center">
+                <li> Nome <input type="text" id="user" name="user" placeholder="Nome"> </li>
+                <li> Idade <input type="text" id="Idade" name="Idade" placeholder="Idade"> </li>
+                <li> Escolaridade
+                    <select id="escolaridade">
+                    <option value="Selecionar">Selecionar</option>
+                    <option value="Ensino fundamental incompleto">Ensino fundamental incompleto</option>
+                    <option value="Ensino fundamental completo">Ensino fundamental completo</option>
+                    <option value="Ensino médio incompleto">Ensino médio incompleto</option>
+                    <option value="Ensino médio completo">Ensino médio completo</option>
+                    <option value="Ensino superior incompleto">Ensino superior incompleto</option>
+                    <option value="Ensino superior completo">Ensino superior completo</option>
+                    </select>
+                </li>
+                <li> Crie sua senha <input type="password" id="senha" name="senha" placeholder="Crie sua senha"> </li>
+                <li> Confirme sua senha <input type="password" id="confsenha" name="confsenha" placeholder="Confirme sua senha"> </li>
+                <li> Área preferida
+                    <select id="area_pref">
+                    <option value="Selecionar">Selecionar</option>
+                    <option value="Exatas">Exatas</option>
+                    <option value="Humanas">Humanas</option>
+                    <option value="Biologicas">Biológicas</option>
+                    </select>
+                </li>
+                <li>Você prefere:</li> 
+                <li><div class="ladolado">
+                        <input type="checkbox" id="eventos" name="eventos">
+                        <p>Eventos </p>
+                        <input type="checkbox" id="convo" name="convo">
+                        <p>Conversas particulares </p>
+                    </div>
+                </li>
+            </ul>
+        </main>
+        <footer> 
+                <form>
+                    <button class="dois_blocos_botao" type="submit" formaction="../codigo/cadastro_geral.html">Voltar</button>
+                    <button class="dois_blocos_botao" type="submit" formaction="../codigo/home.html">Próximo</button>
+                </form>
+        </footer>
+    </body>
+</html>

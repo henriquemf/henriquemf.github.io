@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Chat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Grenze:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a class="voltar" href='../codigo/menu.html'>&#8617;</a>
+            <h1 class="chat_name titulo_pag"> Perfil </h1>
+            <a class="menu_icon" href='../codigo/menu.html'>&#8801;</a>
+        </header>
+
+        <h2 class="titulo_secundario">Ling Ling</h2>
+
+        <main class="main2">
+            <ul class="elements_center">
+                <li> Nome <input type="text" id="user" name="user" placeholder="Ling Ling"></li>
+                <li> Idade <input type="text" id="Idade" name="Idade" placeholder="16"> </li>
+                <li> Escolaridade
+                    <select id="escolaridade">
+                    <option value="Selecionar">Ensino médio incompleto</option>
+                    <option value="Ensino fundamental incompleto">Ensino fundamental incompleto</option>
+                    <option value="Ensino fundamental completo">Ensino fundamental completo</option>
+                    <option value="Selecionar">Selecionar</option>
+                    <option value="Ensino médio completo">Ensino médio completo</option>
+                    <option value="Ensino superior incompleto">Ensino superior incompleto</option>
+                    <option value="Ensino superior completo">Ensino superior completo</option>
+                    </select>
+                </li>
+                <li> Alterar senha <input type="password" id="senha" name="senha" placeholder="Altere sua senha"> </li>
+                <li> Confirme sua nova senha <input type="password" id="confsenha" name="confsenha" placeholder="Confirme a nova senha"> </li>
+                <li> Área preferida
+                    <select id="area_pref">
+                    <option value="Exatas">Exatas</option>
+                    <option value="Selecionar">Selecionar</option>
+                    <option value="Humanas">Humanas</option>
+                    <option value="Biologicas">Biológicas</option>
+                    </select>
+                </li>
+                <li>Você prefere:</li> 
+                <li><div class="ladolado">
+                        <input type="checkbox" id="eventos" name="eventos" checked>
+                        <p>Eventos </p>
+                        <input type="checkbox" id="convo" name="convo" checked>
+                        <p>Conversas particulares </p>
+                    </div>
+                </li>
+
+                <li class="space">Altere sua biografia:</li>
+                
+            </ul>
+        </main>
+        <footer class="footer2"> 
+            <textarea class="space">Oi! Sou Ling Ling, estudante de Ensino Médio e me interesso em conhecer novas profissões e aprender mais sobre as que ainda não conheço! Quero encontrar o curso ideal para mim e que se adeque ao meu perfil.</textarea>
+                <form>
+                    <button class="dois_blocos_botao" type="submit" formaction="../codigo/perfil.html">Cancelar</button>
+                    <button class="dois_blocos_botao" type="submit" formaction="../codigo/home.html">Salvar</button>
+                </form>
+        </footer>
+    </body>
+</html>
