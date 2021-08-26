@@ -25,6 +25,8 @@ Algumas informações úteis e dicas:
  html,
  body {
    font-family: "Roboto", sans-serif;
+   display: flex;
+   flex-direction: column;
  }
  
  .appbar{
@@ -57,68 +59,126 @@ Algumas informações úteis e dicas:
  .card-container{
    display: flex;
    flex-wrap: wrap;
-   padding: 2em;
-   justify-content: center;
+   padding-left:1.5em;
+   padding-right: 1.8em;
+   justify-content: space-evenly;
  }
  
  .card{
-  height:10em;
-  width:14em;
-  padding:1em;
-  margin-right: 1rem;
+  display: inline-block;
+  height: 6.5em;
+  width:14%;
+  padding:0.5rem;
+  margin: 0.4rem;
   margin-bottom: 1rem;
-  box-shadow: 2px 1px 4px grey;
-  transform: rotate(-4deg);
+  box-shadow: 3px 3px 4px grey;
   background-color: #f7d736;
   border-radius: 10px;
  }
 
 .card-title{
   font-size: 1.3vw;
-  margin-bottom: 3.5rem;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-wrap: break-word;
+  margin-bottom: 1rem;
+  font-family: 'Permanent Marker', cursive;
+  color: black;
 }
 
 .card-content{
-  font-size: 1.1vw;
+  font-size: smaller;
+  flex-grow: 1;
   display: flex;
+  align-items:center;
   justify-content: center;
-  margin: auto;
+  font-family: 'Permanent Marker', cursive;
+  color: #2c2c2c;
 }
 
- .container{
-   display: flex;
-   flex-direction: column;
- }
- 
- .form-card{
-   margin: 2rem;
-   padding: 1rem;
-   width: 40%;
-   height: 40%;
-   border: 5px white;
-   border-radius: 0.25rem;
-   align-self: center;
-   box-shadow: 0 5px 5px 2px grey; 
- }
- 
- .form-card-title{
-   width: 100%;
-   font-size: 2vw;
-   padding: 0.25rem;
-   border: white;
-   
- }
- 
- .logo{
-   align-items: flex-start;
-   max-width: 5%;
-   height: 5%;
- }
- 
- .subtitle{
-   padding: 0.7rem;
- }
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-card{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 1rem;
+  width: 40%;
+  height: 40%;
+  border: 5px white;
+  border-radius: 0.25rem;
+  align-self: center;
+  box-shadow: 0 5px 5px 2px grey; 
+}
+
+.form-card-title{
+  width: 100%;
+  font-size: 2vw;
+  padding: 0.25rem;
+  border: white;
+}
+
+.logo{
+  align-items: flex-start;
+  max-width: 5%;
+  height: 5%;
+}
+
+.subtitle{
+  padding: 0.7rem;
+}
+
+.card-color-1{
+background-color: #9de0f5;
+}
+.card-color-2{
+background-color: #ef89ba;
+}
+.card-color-3{
+background-color: #ead3a7
+}
+.card-color-4{
+background-color: #abe9c1;
+}
+.card-color-5{
+background-color: #fae890;
+}
+
+.card-rotation-1{
+transform: rotate(0deg);
+}
+.card-rotation-2{
+transform: rotate(1deg);
+}
+.card-rotation-3{
+transform: rotate(2deg);
+}
+.card-rotation-4{
+transform: rotate(3deg);
+}
+.card-rotation-5{
+transform: rotate(4deg);
+}
+.card-rotation-6{
+transform: rotate(5deg);
+}
+.card-rotation-7{
+transform: rotate(-1deg);
+}
+.card-rotation-8{
+transform: rotate(-2deg);
+}
+.card-rotation-9{
+transform: rotate(-3deg);
+}
+.card-rotation-10{
+transform: rotate(-4deg);
+}
+.card-rotation-11{
+transform: rotate(-5deg);
+}
  
  /* Você pode usar o CSS comentado abaixo, se ajudar */
  /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
